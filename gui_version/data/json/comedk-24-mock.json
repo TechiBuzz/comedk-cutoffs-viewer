@@ -1,0 +1,1756 @@
+[
+    {
+        "code": "E001",
+        "name": "Acharya Institute of Technology-Soladevanahalli, Bengaluru",
+        "courses": {
+            "AE-Aeronautical Engineering": "30719",
+            "AI-Artificial Intelligence & Machine Learning": "18983",
+            "BT-Biotechnology": "44411",
+            "CD-Computer Science & Engineering (Data Science)": "18398",
+            "CS-Computer Science & Engineering": "16855",
+            "CV-Civil Engineering": "57266",
+            "EC-Electronics & Communication Engineering": "23984",
+            "EE-Electrical & Electronics Engineering": "32806",
+            "IS-Information Science & Engineering": "22812",
+            "ME-Mechanical Engineering": "55535",
+            "MT-Mechatronics Engineering": "56729"
+        }
+    },
+    {
+        "code": "E003",
+        "name": "A.C.S. College of Engineering-Kambipura Mysore Road, Bengaluru",
+        "courses": {
+            "AE-Aeronautical Engineering": "67010",
+            "AS-Aerospace Engineering": "35582",
+            "BM-Bio-Medical Engineering": "97966",
+            "CD-Computer Science & Engineering (Data Science)": "56525",
+            "CO-Computer Science & Engineering (IOT)": "65741",
+            "CS-Computer Science & Engineering": "43778",
+            "CY-Computer Science & Engineering (Cyber Security)": "63089",
+            "EC-Electronics & Communication Engineering": "68090"
+        }
+    },
+    {
+        "code": "E004",
+        "name": "Adichunchanagiri Institute Of Technology-Jyothi Nagara, Chikkamagaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "54175",
+            "CD-Computer Science & Engineering (Data Science)": "85649",
+            "CS-Computer Science & Engineering": "54709",
+            "CV-Civil Engineering": "84325",
+            "EC-Electronics & Communication Engineering": "101891",
+            "EE-Electrical & Electronics Engineering": "100408",
+            "IS-Information Science & Engineering": "97889",
+            "ME-Mechanical Engineering": "64010",
+            "RI-Robotics & Artificial Intelligence": "79444"
+        }
+    },
+    {
+        "code": "E005",
+        "name": "Akash Institute of Engineering and Technology-Devanahalli, Bengaluru Rural",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "29983",
+            "CD-Computer Science & Engineering (Data Science)": "23248",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "24101",
+            "CS-Computer Science & Engineering": "18406",
+            "CY-Computer Science & Engineering (Cyber Security)": "27370",
+            "EC-Electronics & Communication Engineering": "49136",
+            "IS-Information Science & Engineering": "37432"
+        }
+    },
+    {
+        "code": "E006",
+        "name": "Alvas Institute of Engineering and Technology-Moodbidri, Mangaluru",
+        "courses": {
+            "AG-Agriculture Engineering": "97806",
+            "AI-Artificial Intelligence & Machine Learning": "99331",
+            "CD-Computer Science & Engineering (Data Science)": "99818",
+            "CG-Computer Science & Design": "102220",
+            "CS-Computer Science & Engineering": "73605",
+            "CV-Civil Engineering": "52192",
+            "EC-Electronics & Communication Engineering": "98313",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "81981",
+            "IS-Information Science & Engineering": "96203"
+        }
+    },
+    {
+        "code": "E007",
+        "name": "AMC Engineering College-Bannerghatta Rd, Bengaluru",
+        "courses": {
+            "AE-Aeronautical Engineering": "51071",
+            "AI-Artificial Intelligence & Machine Learning": "44145",
+            "CD-Computer Science & Engineering (Data Science)": "45168",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "41942",
+            "CS-Computer Science & Engineering": "35139",
+            "CV-Civil Engineering": "84683",
+            "EC-Electronics & Communication Engineering": "57405",
+            "EE-Electrical & Electronics Engineering": "64398",
+            "IS-Information Science & Engineering": "52883",
+            "ME-Mechanical Engineering": "79515"
+        }
+    },
+    {
+        "code": "E009",
+        "name": "Angadi Institute of Technology and Management-Savagaon Road, Belagavi",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "53651",
+            "CS-Computer Science & Engineering": "95129",
+            "EC-Electronics & Communication Engineering": "99442"
+        }
+    },
+    {
+        "code": "E011",
+        "name": "APS College of Engineering-Kanakapura Road, Bengaluru",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "50081",
+            "CS-Computer Science & Engineering": "49529",
+            "CV-Civil Engineering": "100483",
+            "CY-Computer Science & Engineering (Cyber Security)": "62045",
+            "EC-Electronics & Communication Engineering": "101501",
+            "IS-Information Science & Engineering": "100468",
+            "ME-Mechanical Engineering": "67428"
+        }
+    },
+    {
+        "code": "E012",
+        "name": "Atria Institute of Technology-Hebbal, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "35306",
+            "CD-Computer Science & Engineering (Data Science)": "36014",
+            "CG-Computer Science & Design": "50144",
+            "CS-Computer Science & Engineering": "30333",
+            "CV-Civil Engineering": "95405",
+            "EC-Electronics & Communication Engineering": "64457",
+            "IS-Information Science & Engineering": "46204",
+            "ME-Mechanical Engineering": "77414",
+            "UE-Electronics & Computer Engineering": "99542"
+        }
+    },
+    {
+        "code": "E013",
+        "name": "Akshaya Institute of Technology-Koratagere Road, Tumakuru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "99578",
+            "CS-Computer Science & Engineering": "100912",
+            "EC-Electronics & Communication Engineering": "88039"
+        }
+    },
+    {
+        "code": "E014",
+        "name": "Bharatesh Institute of Technology-Shindhollicross, Belagavi",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "100356",
+            "CS-Computer Science & Engineering": "95668",
+            "EC-Electronics & Communication Engineering": "60713"
+        }
+    },
+    {
+        "code": "E015",
+        "name": "B.N.M. Institute of Technology-Banashankari, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "13838",
+            "CS-Computer Science & Engineering": "10398",
+            "EC-Electronics & Communication Engineering": "15141",
+            "EE-Electrical & Electronics Engineering": "24966",
+            "IS-Information Science & Engineering": "12088",
+            "ME-Mechanical Engineering": "36654"
+        }
+    },
+    {
+        "code": "E016",
+        "name": "KLE Technological University Formerly known as BVBCET-Vidyanagar, Hubballi",
+        "courses": {
+            "AR-Automation & Robotics Engineering": "22231",
+            "BT-Biotechnology": "56770",
+            "CA-Computer Science & Engineering (Artificial Intelligence)": "13342",
+            "CS-Computer Science & Engineering": "11680",
+            "CV-Civil Engineering": "76948",
+            "EC-Electronics & Communication Engineering": "23031",
+            "EE-Electrical & Electronics Engineering": "31262",
+            "ME-Mechanical Engineering": "58417",
+            "VL-Electronics Engineering (VLSI Design & Technology)": "27149"
+        }
+    },
+    {
+        "code": "E017",
+        "name": "Ballari Institute of Technology And Management-Near Allipura, Ballari",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "76030",
+            "CA-Computer Science & Engineering (Artificial Intelligence)": "38187",
+            "CD-Computer Science & Engineering (Data Science)": "84276",
+            "CS-Computer Science & Engineering": "47313",
+            "CV-Civil Engineering": "85264",
+            "EC-Electronics & Communication Engineering": "101593",
+            "EE-Electrical & Electronics Engineering": "44710",
+            "ME-Mechanical Engineering": "38537"
+        }
+    },
+    {
+        "code": "E018",
+        "name": "Bangalore College of Engineering and Technology-Chandapura, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "22559",
+            "CS-Computer Science & Engineering": "18174",
+            "EC-Electronics & Communication Engineering": "27412",
+            "EE-Electrical & Electronics Engineering": "42907",
+            "IS-Information Science & Engineering": "23038"
+        }
+    },
+    {
+        "code": "E019",
+        "name": "Bangalore Institute of Technology-V V Puram, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "4918",
+            "CD-Computer Science & Engineering (Data Science)": "4647",
+            "CS-Computer Science & Engineering": "4061",
+            "CV-Civil Engineering": "36163",
+            "EC-Electronics & Communication Engineering": "8271",
+            "EE-Electrical & Electronics Engineering": "13352",
+            "EI-Electronics & Instrumentation Engineering": "15328",
+            "ET-Electronics & Tele- communication Engineering": "12674",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "5350",
+            "IS-Information Science & Engineering": "6187",
+            "ME-Mechanical Engineering": "25658",
+            "RI-Robotics & Artificial Intelligence": "6735",
+            "VL-Electronics Engineering (VLSI Design & Technology)": "13411"
+        }
+    },
+    {
+        "code": "E020",
+        "name": "Bangalore Technological Institute-Chikkanayakanahalli Dinne, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "40304",
+            "CE-Computer Engineering": "38795",
+            "CS-Computer Science & Engineering": "34830",
+            "CV-Civil Engineering": "77857",
+            "EC-Electronics & Communication Engineering": "48971",
+            "ME-Mechanical Engineering": "98399",
+            "RI-Robotics & Artificial Intelligence": "65200"
+        }
+    },
+    {
+        "code": "E021",
+        "name": "Bapuji Institute of Engineering and Technology-Shamanur Road, Davangere",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "65438",
+            "BT-Biotechnology": "60587",
+            "CD-Computer Science & Engineering (Data Science)": "55865",
+            "CH-Chemical Engineering": "93184",
+            "CS-Computer Science & Engineering": "48039",
+            "CV-Civil Engineering": "79113",
+            "EC-Electronics & Communication Engineering": "73819",
+            "EE-Electrical & Electronics Engineering": "101492",
+            "IS-Information Science & Engineering": "76181"
+        }
+    },
+    {
+        "code": "E023",
+        "name": "Basavakalyan Engineering College-NH9 Basavakalyan, Bidar",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "77572",
+            "COS-Computer Science": "64724",
+            "CS-Computer Science & Engineering": "76952",
+            "EC-Electronics & Communication Engineering": "99733"
+        }
+    },
+    {
+        "code": "E024",
+        "name": "Basaveshwar Engineering College-Vidya Nagar, Bagalkote",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "50178",
+            "AU-Automobile Engineering": "61212",
+            "BT-Biotechnology": "62249",
+            "CS-Computer Science & Engineering": "42198",
+            "CV-Civil Engineering": "100692",
+            "EC-Electronics & Communication Engineering": "58230",
+            "IS-Information Science & Engineering": "71906",
+            "UE-Electronics & Computer Engineering": "88863"
+        }
+    },
+    {
+        "code": "E026",
+        "name": "BLDEAs V.P. Dr.P.G.Halakatti College of Engineering and Technology-Ashram Road, Vijayapura",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "101035",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "76099",
+            "CS-Computer Science & Engineering": "99141",
+            "EC-Electronics & Communication Engineering": "95833",
+            "EE-Electrical & Electronics Engineering": "64243",
+            "IS-Information Science & Engineering": "93560"
+        }
+    },
+    {
+        "code": "E027",
+        "name": "BMS College of Engineering-Basavanagudi, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "1642",
+            "AI-Artificial Intelligence & Machine Learning": "1961",
+            "AS-Aerospace Engineering": "4676",
+            "BT-Biotechnology": "15574",
+            "CB-Computer Science & Business Systems": "1652",
+            "CD-Computer Science & Engineering (Data Science)": "1419",
+            "CH-Chemical Engineering": "11681",
+            "CS-Computer Science & Engineering": "1359",
+            "CV-Civil Engineering": "16437",
+            "EC-Electronics & Communication Engineering": "2469",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "1564",
+            "ME-Mechanical Engineering": "6050"
+        }
+    },
+    {
+        "code": "E028",
+        "name": "BMS Institute of Technology and Management-Yelahanka, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "5952",
+            "CB-Computer Science & Business Systems": "5069",
+            "CS-Computer Science & Engineering": "4747",
+            "CV-Civil Engineering": "28897",
+            "EC-Electronics & Communication Engineering": "7436",
+            "EE-Electrical & Electronics Engineering": "11481",
+            "ME-Mechanical Engineering": "16832"
+        }
+    },
+    {
+        "code": "E030",
+        "name": "Brindavan College of Engineering-Yelahanka, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "56446",
+            "CS-Computer Science & Engineering": "65098",
+            "CV-Civil Engineering": "70998",
+            "EC-Electronics & Communication Engineering": "92704",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "100010",
+            "IS-Information Science & Engineering": "100084"
+        }
+    },
+    {
+        "code": "E032",
+        "name": "C.M.R. Institute of Technology-Brookefield, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "13358",
+            "AI-Artificial Intelligence & Machine Learning": "12951",
+            "CD-Computer Science & Engineering (Data Science)": "11181",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "10306",
+            "CS-Computer Science & Engineering": "8918",
+            "EC-Electronics & Communication Engineering": "17629",
+            "IS-Information Science & Engineering": "13498"
+        }
+    },
+    {
+        "code": "E033",
+        "name": "Cambridge Institute of Technology-K R Puram, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "22885",
+            "CD-Computer Science & Engineering (Data Science)": "22648",
+            "CS-Computer Science & Engineering": "19448",
+            "CV-Civil Engineering": "83452",
+            "EC-Electronics & Communication Engineering": "33616",
+            "EE-Electrical & Electronics Engineering": "50624",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "25303",
+            "IS-Information Science & Engineering": "27077",
+            "ME-Mechanical Engineering": "96402"
+        }
+    },
+    {
+        "code": "E035",
+        "name": "Channabasaveshwara Institute of Technology- Gubbi, Tumakuru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "99129",
+            "CS-Computer Science & Engineering": "101925",
+            "CV-Civil Engineering": "69271",
+            "EC-Electronics & Communication Engineering": "98724",
+            "IS-Information Science & Engineering": "73190",
+            "ME-Mechanical Engineering": "87659"
+        }
+    },
+    {
+        "code": "E036",
+        "name": "Chanakya University-Devanahalli, Bengaluru Rural",
+        "courses": {
+            "CV-Civil Engineering": "59209",
+            "ME-Mechanical Engineering": "61643"
+        }
+    },
+    {
+        "code": "E037",
+        "name": "City Engineering College-Doddakalasandra, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "100898",
+            "CS-Computer Science & Engineering": "87155",
+            "EC-Electronics & Communication Engineering": "98492",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "91179",
+            "IS-Information Science & Engineering": "2568",
+            "ME-Mechanical Engineering": "88524"
+        }
+    },
+    {
+        "code": "E038",
+        "name": "Coorg Institute of Technology-Ponnampet, South Kodagu",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "93001",
+            "AI-Artificial Intelligence & Machine Learning": "99599",
+            "CS-Computer Science & Engineering": "92280",
+            "CV-Civil Engineering": "33035",
+            "CY-Computer Science & Engineering (Cyber Security)": "97035"
+        }
+    },
+    {
+        "code": "E039",
+        "name": "Dayananda Sagar Academy of Technology and Management-Kanakpura Road, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "11559",
+            "CA-Computer Science & Engineering (Artificial Intelligence)": "11878",
+            "CD-Computer Science & Engineering (Data Science)": "14463",
+            "CG-Computer Science & Design": "18048",
+            "CS-Computer Science & Engineering": "13754",
+            "CY-Computer Science & Engineering (Cyber Security)": "14833",
+            "EC-Electronics & Communication Engineering": "18308",
+            "EE-Electrical & Electronics Engineering": "23076",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "15963",
+            "IS-Information Science & Engineering": "18483"
+        }
+    },
+    {
+        "code": "E040",
+        "name": "Dayananda Sagar College of Engineering-Kumaraswamy Layout, Bengaluru",
+        "courses": {
+            "AE-Aeronautical Engineering": "11204",
+            "AI-Artificial Intelligence & Machine Learning": "2873",
+            "AU-Automobile Engineering": "18643",
+            "BT-Biotechnology": "24794",
+            "CB-Computer Science & Business Systems": "3324",
+            "CD-Computer Science & Engineering (Data Science)": "2615",
+            "CG-Computer Science & Design": "3490",
+            "CH-Chemical Engineering": "18916",
+            "CS-Computer Science & Engineering": "2386",
+            "CV-Civil Engineering": "25919",
+            "CY-Computer Science & Engineering (Cyber Security)": "2960",
+            "EC-Electronics & Communication Engineering": "5123",
+            "EE-Electrical & Electronics Engineering": "9090",
+            "EI-Electronics & Instrumentation Engineering": "10671",
+            "ET-Electronics & Tele- communication Engineering": "9730",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "3186",
+            "IS-Information Science & Engineering": "3431",
+            "MD-Medical Electronics Engineering": "21285",
+            "ME-Mechanical Engineering": "17908",
+            "RI-Robotics & Artificial Intelligence": "4258"
+        }
+    },
+    {
+        "code": "E041",
+        "name": "DON BOSCO Institute of Technology-Kumbalgodu, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "32283",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "44946",
+            "CS-Computer Science & Engineering": "39962",
+            "EC-Electronics & Communication Engineering": "70038",
+            "EE-Electrical & Electronics Engineering": "96512",
+            "IS-Information Science & Engineering": "68147"
+        }
+    },
+    {
+        "code": "E042",
+        "name": "Dr. Ambedkar Institute of Technology-Malathahalli, Bengaluru",
+        "courses": {
+            "AE-Aeronautical Engineering": "29563",
+            "AI-Artificial Intelligence & Machine Learning": "16030",
+            "CB-Computer Science & Business Systems": "17663",
+            "CS-Computer Science & Engineering": "14477",
+            "CV-Civil Engineering": "47623",
+            "EC-Electronics & Communication Engineering": "20455",
+            "IS-Information Science & Engineering": "17999"
+        }
+    },
+    {
+        "code": "E043",
+        "name": "Yenepoya Institute of Technology formerly known as Dr. M V Shetty Institute of Technology\r\nMoodbidri  Mangaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "73590",
+            "CD-Computer Science & Engineering (Data Science)": "26154",
+            "CS-Computer Science & Engineering": "95054",
+            "EC-Electronics & Communication Engineering": "48759",
+            "ME-Mechanical Engineering": "56962"
+        }
+    },
+    {
+        "code": "E044",
+        "name": "Dr.Shri Shri Shivakumara Mahaswamy College of Engineering-Nelamangala, Bengaluru Rural",
+        "courses": {
+            "CS-Computer Science & Engineering": "90192",
+            "EE-Electrical & Electronics Engineering": "83758"
+        }
+    },
+    {
+        "code": "E045",
+        "name": "Dr H N National College Of Engineering-Jayanagar, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "86756",
+            "CS-Computer Science & Engineering": "83870",
+            "EC-Electronics & Communication Engineering": "89107",
+            "IS-Information Science & Engineering": "90567"
+        }
+    },
+    {
+        "code": "E046",
+        "name": "East Point College of Engineering and Technology-Avalahalli, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "45902",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "46128",
+            "CS-Computer Science & Engineering": "53589",
+            "CV-Civil Engineering": "77453",
+            "EC-Electronics & Communication Engineering": "98617",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "73580",
+            "IS-Information Science & Engineering": "98787"
+        }
+    },
+    {
+        "code": "E048",
+        "name": "East West Institute of Technology-BEL Layout, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "65318",
+            "AI-Artificial Intelligence & Machine Learning": "71905",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "74336",
+            "CS-Computer Science & Engineering": "71203",
+            "CV-Civil Engineering": "66290",
+            "EC-Electronics & Communication Engineering": "73599",
+            "EE-Electrical & Electronics Engineering": "98557",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "85908",
+            "IS-Information Science & Engineering": "97976",
+            "ME-Mechanical Engineering": "74720",
+            "UE-Electronics & Computer Engineering": "98369"
+        }
+    },
+    {
+        "code": "E049",
+        "name": "Garden City University-Old Madras Road, Bengaluru",
+        "courses": {
+            "COS-Computer Science": "100400"
+        }
+    },
+    {
+        "code": "E050",
+        "name": "Global Academy of Technology-Rajarajeshwari Nagar, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "33151",
+            "AE-Aeronautical Engineering": "58796",
+            "AI-Artificial Intelligence & Machine Learning": "30546",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "31975",
+            "CS-Computer Science & Engineering": "28332",
+            "CV-Civil Engineering": "94161",
+            "EC-Electronics & Communication Engineering": "43730",
+            "EE-Electrical & Electronics Engineering": "57518",
+            "IS-Information Science & Engineering": "36138",
+            "ME-Mechanical Engineering": "75085"
+        }
+    },
+    {
+        "code": "E051",
+        "name": "GM Institute of Technology-P B Road, Davangere",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "92229",
+            "CS-Computer Science & Engineering": "67302",
+            "EC-Electronics & Communication Engineering": "100604",
+            "IS-Information Science & Engineering": "96226"
+        }
+    },
+    {
+        "code": "E053",
+        "name": "Gopalan College of Engineering And Management-Whitefield, Bengaluru",
+        "courses": {
+            "AE-Aeronautical Engineering": "62220",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "69060",
+            "CS-Computer Science & Engineering": "79760",
+            "EC-Electronics & Communication Engineering": "89350",
+            "IS-Information Science & Engineering": "91978"
+        }
+    },
+    {
+        "code": "E055",
+        "name": "GSSS Institute of Engineering and Technology for Women-Metagalli, Mysuru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "40725",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "37596",
+            "CS-Computer Science & Engineering": "29185",
+            "EC-Electronics & Communication Engineering": "56082",
+            "EE-Electrical & Electronics Engineering": "69773",
+            "IS-Information Science & Engineering": "37805"
+        }
+    },
+    {
+        "code": "E056",
+        "name": "H.K.E.Societys P.D.A. College of Engineering-Aiwan E Shahi area, Kalaburgi",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "100711",
+            "CS-Computer Science & Engineering": "100727",
+            "EC-Electronics & Communication Engineering": "90134",
+            "EE-Electrical & Electronics Engineering": "79136"
+        }
+    },
+    {
+        "code": "E058",
+        "name": "Sri Jayachamarajendra College of Engineering constituent college of JSS Science and Technology\r\nUniversity-Manasagangothri  Mysuru",
+        "courses": {
+            "CS-Computer Science & Engineering": "2282"
+        }
+    },
+    {
+        "code": "E059",
+        "name": "Jawaharlal Nehru New College of Engineering JNNCE-Swalanga Road, Shivamogga",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "50038",
+            "CD-Computer Science & Engineering (Data Science)": "61917",
+            "CS-Computer Science & Engineering": "43601",
+            "CV-Civil Engineering": "72695",
+            "EC-Electronics & Communication Engineering": "80110",
+            "EE-Electrical & Electronics Engineering": "102078",
+            "ET-Electronics & Tele- communication Engineering": "52711",
+            "IS-Information Science & Engineering": "67836",
+            "RI-Robotics & Artificial Intelligence": "100446"
+        }
+    },
+    {
+        "code": "E060",
+        "name": "JSS Academy of Technical Education-Kengeri Main Road, Bengaluru",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "13442",
+            "CS-Computer Science & Engineering": "10288",
+            "CV-Civil Engineering": "40705",
+            "EC-Electronics & Communication Engineering": "19771",
+            "EI-Electronics & Instrumentation Engineering": "25056",
+            "IS-Information Science & Engineering": "16074",
+            "ME-Mechanical Engineering": "32854"
+        }
+    },
+    {
+        "code": "E061",
+        "name": "JSS Science and Technology University-Mysuru",
+        "courses": {
+            "BT-Biotechnology": "40333",
+            "CV-Civil Engineering": "37531",
+            "ME-Mechanical Engineering": "25404"
+        }
+    },
+    {
+        "code": "E062",
+        "name": "Jain College of Engineering-T.S Nagar, Belagavi",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "26775",
+            "CS-Computer Science & Engineering": "37733",
+            "CV-Civil Engineering": "99605",
+            "EC-Electronics & Communication Engineering": "61007",
+            "EE-Electrical & Electronics Engineering": "95966",
+            "ME-Mechanical Engineering": "29022"
+        }
+    },
+    {
+        "code": "E063",
+        "name": "Jnana Vikas Institute of Technology-Bidadi, Ramnagar Taluk, Bengaluru Rural",
+        "courses": {
+            "CS-Computer Science & Engineering": "85226"
+        }
+    },
+    {
+        "code": "E064",
+        "name": "Jain College of Engineering and Research-Udyambag, Belagavi",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "45483",
+            "CS-Computer Science & Engineering": "49432",
+            "CV-Civil Engineering": "96185",
+            "EC-Electronics & Communication Engineering": "76934"
+        }
+    },
+    {
+        "code": "E065",
+        "name": "KLE Technological University  Formerly called as KLE Dr. M.S. Sheshgiri College of Engineering and\r\nTechnology-Udyambag  Belagavi",
+        "courses": {
+            "BM-Bio-Medical Engineering": "61233",
+            "CA-Computer Science & Engineering (Artificial Intelligence)": "27036",
+            "CH-Chemical Engineering": "101712",
+            "CS-Computer Science & Engineering": "27681",
+            "CV-Civil Engineering": "89910",
+            "EC-Electronics & Communication Engineering": "37145",
+            "EE-Electrical & Electronics Engineering": "53970",
+            "ME-Mechanical Engineering": "91302"
+        }
+    },
+    {
+        "code": "E066",
+        "name": "KLE College of Engineering and Technology-Chikodi Dist., Belagavi",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "37134",
+            "CS-Computer Science & Engineering": "34815",
+            "CV-Civil Engineering": "60296",
+            "EC-Electronics & Communication Engineering": "71675",
+            "ME-Mechanical Engineering": "71200"
+        }
+    },
+    {
+        "code": "E067",
+        "name": "K.S School of Engineering And Management-Off Kanakapura Road, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "83326",
+            "CB-Computer Science & Business Systems": "89747",
+            "CS-Computer Science & Engineering": "65063",
+            "CV-Civil Engineering": "59489",
+            "EC-Electronics & Communication Engineering": "93539",
+            "ME-Mechanical Engineering": "26611"
+        }
+    },
+    {
+        "code": "E068",
+        "name": "K.S. Institute of Technology-Kanakapura Main Road, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "44220",
+            "CG-Computer Science & Design": "64265",
+            "CM-Computer & Communication Engineering": "77990",
+            "CS-Computer Science & Engineering": "41602",
+            "EC-Electronics & Communication Engineering": "68088",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "58226",
+            "ME-Mechanical Engineering": "85705"
+        }
+    },
+    {
+        "code": "E069",
+        "name": "KVG College Of Engineering-Sullia, Dakshina Kannada",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "87292",
+            "CS-Computer Science & Engineering": "95464"
+        }
+    },
+    {
+        "code": "E070",
+        "name": "Kalpataru Institute of Technology-B H Road, Tiptur",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "40959",
+            "CS-Computer Science & Engineering": "99597"
+        }
+    },
+    {
+        "code": "E071",
+        "name": "Karavali Institute of Technology-Kottara, Mangaluru",
+        "courses": {
+            "AE-Aeronautical Engineering": "71389"
+        }
+    },
+    {
+        "code": "E072",
+        "name": "K L E  Institute of Technology-Gokul, Hubbali",
+        "courses": {
+            "CS-Computer Science & Engineering": "29210",
+            "CV-Civil Engineering": "99769",
+            "EC-Electronics & Communication Engineering": "44546",
+            "EE-Electrical & Electronics Engineering": "64831",
+            "ME-Mechanical Engineering": "80792"
+        }
+    },
+    {
+        "code": "E073",
+        "name": "KLS Gogte Institute of Technology-Udyambag, Belagavi",
+        "courses": {
+            "AE-Aeronautical Engineering": "35884",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "26750",
+            "CS-Computer Science & Engineering": "22170",
+            "CV-Civil Engineering": "67444",
+            "EC-Electronics & Communication Engineering": "34599",
+            "EE-Electrical & Electronics Engineering": "39985",
+            "IS-Information Science & Engineering": "30704",
+            "ME-Mechanical Engineering": "52414"
+        }
+    },
+    {
+        "code": "E074",
+        "name": "KLS Vishwanathrao Deshpande Institute of Technology-Dandeli Road, Haliyal",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "78766",
+            "CS-Computer Science & Engineering": "70459",
+            "EC-Electronics & Communication Engineering": "96723"
+        }
+    },
+    {
+        "code": "E075",
+        "name": "KNS Institute of Technology-Yelahanka, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "100849",
+            "CD-Computer Science & Engineering (Data Science)": "94211",
+            "CS-Computer Science & Engineering": "99710",
+            "IS-Information Science & Engineering": "65846",
+            "ME-Mechanical Engineering": "40111"
+        }
+    },
+    {
+        "code": "E076",
+        "name": "M.S. Engineering College-Sadahalli, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "74108",
+            "CS-Computer Science & Engineering": "66245",
+            "CV-Civil Engineering": "97516",
+            "EC-Electronics & Communication Engineering": "91244",
+            "IS-Information Science & Engineering": "98172",
+            "ME-Mechanical Engineering": "76260"
+        }
+    },
+    {
+        "code": "E077",
+        "name": "M.S. Ramaiah Institute of Technology-MSR Nagar, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "1754",
+            "AI-Artificial Intelligence & Machine Learning": "1777",
+            "AS-Aerospace Engineering": "5917",
+            "BT-Biotechnology": "15977",
+            "CH-Chemical Engineering": "13501",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "1405",
+            "CS-Computer Science & Engineering": "843",
+            "CV-Civil Engineering": "16130",
+            "CY-Computer Science & Engineering (Cyber Security)": "1666",
+            "EC-Electronics & Communication Engineering": "2280",
+            "EE-Electrical & Electronics Engineering": "2846",
+            "EI-Electronics & Instrumentation Engineering": "3300",
+            "ET-Electronics & Tele- communication Engineering": "3060",
+            "IM-Industrial Engineering & Management": "15050",
+            "IS-Information Science & Engineering": "1712",
+            "MD-Medical Electronics Engineering": "18184",
+            "ME-Mechanical Engineering": "8077"
+        }
+    },
+    {
+        "code": "E078",
+        "name": "Maharaja Institute of Technology-Belawadi, Mandya",
+        "courses": {
+            "CA-Computer Science & Engineering (Artificial Intelligence)": "53958",
+            "CB-Computer Science & Business Systems": "85741",
+            "CD-Computer Science & Engineering (Data Science)": "67265",
+            "CE-Computer Engineering": "85458",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "64434",
+            "CO-Computer Science & Engineering (IOT)": "78981",
+            "CS-Computer Science & Engineering": "62886",
+            "CV-Civil Engineering": "91758",
+            "EC-Electronics & Communication Engineering": "96197",
+            "IS-Information Science & Engineering": "76411",
+            "ME-Mechanical Engineering": "77387"
+        }
+    },
+    {
+        "code": "E079",
+        "name": "Malnad College of Engineering-Rangoli Halla, Hassan",
+        "courses": {
+            "CB-Computer Science & Business Systems": "80222",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "55061",
+            "CS-Computer Science & Engineering": "57359",
+            "CV-Civil Engineering": "94432",
+            "EC-Electronics & Communication Engineering": "69223",
+            "EE-Electrical & Electronics Engineering": "96702",
+            "IS-Information Science & Engineering": "98285"
+        }
+    },
+    {
+        "code": "E080",
+        "name": "Mangalore Institute of Technology and Engineering-Moodbidri, Mangaluru",
+        "courses": {
+            "AE-Aeronautical Engineering": "101405",
+            "AI-Artificial Intelligence & Machine Learning": "72501",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "53706",
+            "CS-Computer Science & Engineering": "101248",
+            "EC-Electronics & Communication Engineering": "89002",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "91347",
+            "IS-Information Science & Engineering": "73821",
+            "ME-Mechanical Engineering": "53960",
+            "MT-Mechatronics Engineering": "99830"
+        }
+    },
+    {
+        "code": "E081",
+        "name": "Moodalakatte Institute of Technology-Moodalakatte, Udupi",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "47028",
+            "CD-Computer Science & Engineering (Data Science)": "75511",
+            "CS-Computer Science & Engineering": "75174"
+        }
+    },
+    {
+        "code": "E082",
+        "name": "Maharaja Institute of Technology-Thandavapura, Mysuru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "70361",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "77530",
+            "CS-Computer Science & Engineering": "80586",
+            "CV-Civil Engineering": "99835",
+            "EC-Electronics & Communication Engineering": "99735",
+            "ME-Mechanical Engineering": "72940"
+        }
+    },
+    {
+        "code": "E083",
+        "name": "Mysuru Royal Institute of Technology-Palahallli, Mandya District",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "97837",
+            "CS-Computer Science & Engineering": "97639",
+            "CV-Civil Engineering": "91610"
+        }
+    },
+    {
+        "code": "E084",
+        "name": "Nagarjuna College of Engineering And Technology-Devanahalli, Bengaluru",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "76679",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "96960",
+            "CS-Computer Science & Engineering": "84022",
+            "EC-Electronics & Communication Engineering": "99229",
+            "IS-Information Science & Engineering": "89820"
+        }
+    },
+    {
+        "code": "E085",
+        "name": "The National Institute of Engineering North Campus-Koorgalli, Mysuru",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "5615",
+            "CS-Computer Science & Engineering": "4562",
+            "IS-Information Science & Engineering": "6906"
+        }
+    },
+    {
+        "code": "E086",
+        "name": "Nitte Meenakshi Institute of Technology-Yelahanka, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "7526",
+            "AE-Aeronautical Engineering": "23199",
+            "AI-Artificial Intelligence & Machine Learning": "7421",
+            "CB-Computer Science & Business Systems": "7766",
+            "CS-Computer Science & Engineering": "6822",
+            "CV-Civil Engineering": "40093",
+            "EC-Electronics & Communication Engineering": "11158",
+            "EE-Electrical & Electronics Engineering": "16259",
+            "IS-Information Science & Engineering": "8557",
+            "ME-Mechanical Engineering": "28138",
+            "VL-Electronics Engineering (VLSI Design & Technology)": "15202"
+        }
+    },
+    {
+        "code": "E088",
+        "name": "Navodaya Institute of Technology-Bijangera, Raichur",
+        "courses": {
+            "CS-Computer Science & Engineering": "98771"
+        }
+    },
+    {
+        "code": "E089",
+        "name": "P.E.S.College of Engineering-PES College Road, Mandya",
+        "courses": {
+            "CB-Computer Science & Business Systems": "12413",
+            "CD-Computer Science & Engineering (Data Science)": "10052",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "9320",
+            "CS-Computer Science & Engineering": "9210",
+            "CV-Civil Engineering": "34537",
+            "EC-Electronics & Communication Engineering": "18752",
+            "EE-Electrical & Electronics Engineering": "21262",
+            "IS-Information Science & Engineering": "15490"
+        }
+    },
+    {
+        "code": "E090",
+        "name": "PES Institute of Technology and Management-Kotegangoor Cost, Shivamogga",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "18578",
+            "CD-Computer Science & Engineering (Data Science)": "20749",
+            "CE-Computer Engineering": "25277",
+            "CG-Computer Science & Design": "33183",
+            "CS-Computer Science & Engineering": "17536",
+            "CV-Civil Engineering": "72730",
+            "EC-Electronics & Communication Engineering": "38861",
+            "EE-Electrical & Electronics Engineering": "57423",
+            "IST-Information Science & Technology": "35704",
+            "ME-Mechanical Engineering": "101467"
+        }
+    },
+    {
+        "code": "E094",
+        "name": "Proudhadevaraya Institute of Technology-TB Dam Road, Hosapete",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "82466",
+            "CS-Computer Science & Engineering": "92760"
+        }
+    },
+    {
+        "code": "E095",
+        "name": "R V College of Engineering-Mysore Road, Bengaluru",
+        "courses": {
+            "AS-Aerospace Engineering": "2867",
+            "BT-Biotechnology": "9067",
+            "CD-Computer Science & Engineering (Data Science)": "282",
+            "CH-Chemical Engineering": "6023",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "328",
+            "CS-Computer Science & Engineering": "204",
+            "CV-Civil Engineering": "9563",
+            "CY-Computer Science & Engineering (Cyber Security)": "429",
+            "EC-Electronics & Communication Engineering": "752",
+            "EE-Electrical & Electronics Engineering": "1501",
+            "ET-Electronics & Tele- communication Engineering": "1320",
+            "IM-Industrial Engineering & Management": "8286",
+            "IS-Information Science & Engineering": "418",
+            "ME-Mechanical Engineering": "4231"
+        }
+    },
+    {
+        "code": "E096",
+        "name": "R.L. Jalappa Institute of Technology-Kodigehalli, Doddaballapur",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "99065",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "96804",
+            "CS-Computer Science & Engineering": "101892",
+            "CY-Computer Science & Engineering (Cyber Security)": "87823",
+            "EC-Electronics & Communication Engineering": "91813"
+        }
+    },
+    {
+        "code": "E097",
+        "name": "R.R. Institute of Technology-Chikkabanavara, Bengaluru",
+        "courses": {
+            "CS-Computer Science & Engineering": "86718",
+            "CST-Computer Science & Technology": "60514",
+            "EC-Electronics & Communication Engineering": "101644",
+            "ES-Electronics & Computer Science": "90328",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "68951",
+            "IS-Information Science & Engineering": "81159"
+        }
+    },
+    {
+        "code": "E098",
+        "name": "R T E Societys Rural Engineering College-Hulkoti, Gadag",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "69407",
+            "CS-Computer Science & Engineering": "101228"
+        }
+    },
+    {
+        "code": "E099",
+        "name": "Raja Rajeswari College of Engineering-Kumbalgodu, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "51049",
+            "CG-Computer Science & Design": "81957",
+            "CS-Computer Science & Engineering": "55031",
+            "EC-Electronics & Communication Engineering": "94269",
+            "EE-Electrical & Electronics Engineering": "76938",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "86580",
+            "IS-Information Science & Engineering": "99649",
+            "RA-Robotics & Automation": "101819"
+        }
+    },
+    {
+        "code": "E100",
+        "name": "Rajeev Institute of Technology-BM Bypass Road, Hassan",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "87107",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "69896",
+            "CS-Computer Science & Engineering": "83875",
+            "IS-Information Science & Engineering": "97990",
+            "ME-Mechanical Engineering": "73817"
+        }
+    },
+    {
+        "code": "E101",
+        "name": "Rajiv Gandhi Institute of Technology-R T Nagar Post, Bengaluru",
+        "courses": {
+            "BM-Bio-Medical Engineering": "75923",
+            "CS-Computer Science & Engineering": "55926",
+            "EC-Electronics & Communication Engineering": "97675",
+            "EE-Electrical & Electronics Engineering": "86001",
+            "ME-Mechanical Engineering": "44233"
+        }
+    },
+    {
+        "code": "E102",
+        "name": "Rao Bahadur Y Mahabaleswarappa Engineering College-Cantonment, Ballari",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "52980",
+            "CS-Computer Science & Engineering": "63342",
+            "EC-Electronics & Communication Engineering": "100573"
+        }
+    },
+    {
+        "code": "E104",
+        "name": "RNS Institute of Technology-R R Nagar Post, Bengaluru",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "13166",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "13519",
+            "CS-Computer Science & Engineering": "11575",
+            "CV-Civil Engineering": "52215",
+            "CY-Computer Science & Engineering (Cyber Security)": "13678",
+            "EC-Electronics & Communication Engineering": "17293",
+            "EE-Electrical & Electronics Engineering": "19078",
+            "ME-Mechanical Engineering": "34622"
+        }
+    },
+    {
+        "code": "E105",
+        "name": "Bheemanna Khandre Institute of Technology-Bhalki, Bidar",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "75385",
+            "CS-Computer Science & Engineering": "85846",
+            "CY-Computer Science & Engineering (Cyber Security)": "68892"
+        }
+    },
+    {
+        "code": "E107",
+        "name": "SJB Institute of Technology-Kengeri, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "24009",
+            "CD-Computer Science & Engineering (Data Science)": "24131",
+            "CS-Computer Science & Engineering": "22189",
+            "CV-Civil Engineering": "47686",
+            "EC-Electronics & Communication Engineering": "32599",
+            "EE-Electrical & Electronics Engineering": "28676",
+            "IS-Information Science & Engineering": "27262",
+            "ME-Mechanical Engineering": "101135"
+        }
+    },
+    {
+        "code": "E108",
+        "name": "S J C Institute of Technology-BB Road, Chikkaballapur",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "49196",
+            "AE-Aeronautical Engineering": "71695",
+            "AS-Aerospace Engineering": "40615",
+            "CG-Computer Science & Design": "100024",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "57585",
+            "CS-Computer Science & Engineering": "57090",
+            "EC-Electronics & Communication Engineering": "80141",
+            "IS-Information Science & Engineering": "101705"
+        }
+    },
+    {
+        "code": "E109",
+        "name": "S.E.A. College of Engineering and Technology-K R Puram, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "100328",
+            "AG-Agriculture Engineering": "62340",
+            "AI-Artificial Intelligence & Machine Learning": "71668",
+            "CS-Computer Science & Engineering": "93167",
+            "EC-Electronics & Communication Engineering": "66936",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "50169"
+        }
+    },
+    {
+        "code": "E110",
+        "name": "SSETs S.G. Balekundri Institute of Technology-Shivabasva Nagar, Belagavi",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "99499",
+            "CB-Computer Science & Business Systems": "60367",
+            "CS-Computer Science & Engineering": "98288",
+            "EC-Electronics & Communication Engineering": "98307",
+            "EE-Electrical & Electronics Engineering": "61091"
+        }
+    },
+    {
+        "code": "E112",
+        "name": "Sahyadri College of Engineering and Management-Adyar, Mangaluru",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "77460",
+            "CS-Computer Science & Engineering": "53646",
+            "EC-Electronics & Communication Engineering": "98441",
+            "IS-Information Science & Engineering": "100708",
+            "RA-Robotics & Automation": "78034"
+        }
+    },
+    {
+        "code": "E113",
+        "name": "Sai Vidya Institute of Technology-Rajan Kunte, Bengaluru",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "72809",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "63546",
+            "CS-Computer Science & Engineering": "48751",
+            "CV-Civil Engineering": "95422",
+            "EC-Electronics & Communication Engineering": "92176",
+            "IS-Information Science & Engineering": "89391"
+        }
+    },
+    {
+        "code": "E114",
+        "name": "Sambhram Institute of Technology-Jalahalli East, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "90458",
+            "AI-Artificial Intelligence & Machine Learning": "100882",
+            "CS-Computer Science & Engineering": "98982",
+            "CY-Computer Science & Engineering (Cyber Security)": "72878",
+            "EC-Electronics & Communication Engineering": "83933",
+            "ME-Mechanical Engineering": "91276"
+        }
+    },
+    {
+        "code": "E116",
+        "name": "Sapthagiri NPS University-Hesarghatta Main Road, Bengaluru",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "31577",
+            "CS-Computer Science & Engineering": "30473",
+            "EC-Electronics & Communication Engineering": "33522"
+        }
+    },
+    {
+        "code": "E117",
+        "name": "SDM College of Engineering and Technology, Tulu Minority-Kalaghatagi, Dharwad",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "25911",
+            "CH-Chemical Engineering": "65355",
+            "CS-Computer Science & Engineering": "21175",
+            "CV-Civil Engineering": "97944",
+            "EC-Electronics & Communication Engineering": "30801",
+            "EE-Electrical & Electronics Engineering": "48880",
+            "IS-Information Science & Engineering": "25263",
+            "ME-Mechanical Engineering": "75866"
+        }
+    },
+    {
+        "code": "E118",
+        "name": "SDM Institute of Technology, Tulu Minority-Ujire, Dakshina Kannada",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "26210",
+            "CS-Computer Science & Engineering": "24602",
+            "EC-Electronics & Communication Engineering": "31893",
+            "IS-Information Science & Engineering": "20047"
+        }
+    },
+    {
+        "code": "E119",
+        "name": "SECAB Institute of Engineering andTechnology-Nauraspur-Bagalkot Road, Vijayapura",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "101329"
+        }
+    },
+    {
+        "code": "E121",
+        "name": "Sri Sairam College of Engineering-Anekal, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "94032",
+            "CS-Computer Science & Engineering": "87729",
+            "EC-Electronics & Communication Engineering": "101910",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "52268",
+            "IS-Information Science & Engineering": "101475"
+        }
+    },
+    {
+        "code": "E122",
+        "name": "Shree Devi Institute of Technology-Kenjar, Mangaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "76731",
+            "AE-Aeronautical Engineering": "64167",
+            "CS-Computer Science & Engineering": "85504"
+        }
+    },
+    {
+        "code": "E123",
+        "name": "Shri Madhwa Vadiraja Institute of Technology and Management-Bantakal, Udupi",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "73643",
+            "AI-Artificial Intelligence & Machine Learning": "37026",
+            "CS-Computer Science & Engineering": "88307",
+            "EC-Electronics & Communication Engineering": "66205",
+            "ME-Mechanical Engineering": "52059"
+        }
+    },
+    {
+        "code": "E124",
+        "name": "Shridevi Institute of Engineering and Technology-Sira Road, Tumakuru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "85977",
+            "AI-Artificial Intelligence & Machine Learning": "99396",
+            "CS-Computer Science & Engineering": "96649",
+            "CU-Cyber Security": "91865",
+            "EC-Electronics & Communication Engineering": "47168",
+            "IS-Information Science & Engineering": "95623"
+        }
+    },
+    {
+        "code": "E125",
+        "name": "Siddaganga Institute of Technology-B H Road, Tumakuru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "7858",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "7403",
+            "CS-Computer Science & Engineering": "6550",
+            "EC-Electronics & Communication Engineering": "10891",
+            "EE-Electrical & Electronics Engineering": "14599",
+            "EIE-Electronics & Instrumentation Engineering (Inst. Technology)": "15511",
+            "ET-Electronics & Tele- communication Engineering": "12134",
+            "IS-Information Science & Engineering": "8658"
+        }
+    },
+    {
+        "code": "E126",
+        "name": "Sir M.Visvesvaraya Institute of Technology-Yelahanka, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "8633",
+            "BT-Biotechnology": "32919",
+            "CD-Computer Science & Engineering (Data Science)": "8637",
+            "CS-Computer Science & Engineering": "7764",
+            "CV-Civil Engineering": "42399",
+            "EC-Electronics & Communication Engineering": "12567",
+            "EE-Electrical & Electronics Engineering": "22075",
+            "ET-Electronics & Tele- communication Engineering": "17204",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "9207",
+            "IS-Information Science & Engineering": "9723",
+            "ME-Mechanical Engineering": "30693",
+            "RI-Robotics & Artificial Intelligence": "11418",
+            "UE-Electronics & Computer Engineering": "14895"
+        }
+    },
+    {
+        "code": "E127",
+        "name": "SJM Institute of Technology-NH 4 Bye-pass, Chitradurga",
+        "courses": {
+            "CS-Computer Science & Engineering": "91698"
+        }
+    },
+    {
+        "code": "E128",
+        "name": "Smt. Kamala and Sri Venkappa M. Agadi College of Engineering and Technology-Laxmeswar,\r\nGadag",
+        "courses": {
+            "CS-Computer Science & Engineering": "100971",
+            "EC-Electronics & Communication Engineering": "92993"
+        }
+    },
+    {
+        "code": "E132",
+        "name": "Sri Krishna Institute of Technology-Chikkabanavara, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "96165",
+            "CS-Computer Science & Engineering": "101534",
+            "EC-Electronics & Communication Engineering": "80981"
+        }
+    },
+    {
+        "code": "E136",
+        "name": "Sri Taralabalu Jagadguru Institute of Technology-Haveri Dist., Ranebennur",
+        "courses": {
+            "CS-Computer Science & Engineering": "97510"
+        }
+    },
+    {
+        "code": "E137",
+        "name": "Sri Venkateshwara College of Engineering-KIAL Road, Bengaluru",
+        "courses": {
+            "CA-Computer Science & Engineering (Artificial Intelligence)": "36440",
+            "CD-Computer Science & Engineering (Data Science)": "46626",
+            "CS-Computer Science & Engineering": "65934",
+            "CV-Civil Engineering": "40772",
+            "CY-Computer Science & Engineering (Cyber Security)": "49153",
+            "EC-Electronics & Communication Engineering": "78483",
+            "IS-Information Science & Engineering": "69530",
+            "ME-Mechanical Engineering": "96306"
+        }
+    },
+    {
+        "code": "E138",
+        "name": "Srinivas Institute of Technology-Hampankatta, Mangaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "98636",
+            "AI-Artificial Intelligence & Machine Learning": "59879",
+            "AU-Automobile Engineering": "100057",
+            "CB-Computer Science & Business Systems": "82387",
+            "CG-Computer Science & Design": "75240",
+            "CS-Computer Science & Engineering": "72248",
+            "IS-Information Science & Engineering": "92250",
+            "MR-Marine Engineering": "60260"
+        }
+    },
+    {
+        "code": "E141",
+        "name": "T. John Institute of Technology-Bannerghatta Road, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "96420",
+            "CS-Computer Science & Engineering": "94709",
+            "DS-Data Science": "81934",
+            "EC-Electronics & Communication Engineering": "81501",
+            "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "77418",
+            "IS-Information Science & Engineering": "77798"
+        }
+    },
+    {
+        "code": "E142",
+        "name": "The National Institute of Engineering South Campus-Mananthavady Road, Mysuru",
+        "courses": {
+            "CV-Civil Engineering": "30448",
+            "EC-Electronics & Communication Engineering": "9270",
+            "EE-Electrical & Electronics Engineering": "17014",
+            "ME-Mechanical Engineering": "25166"
+        }
+    },
+    {
+        "code": "E143",
+        "name": "Tontadarya College of Engineering-Mundaragi Road , Gadag",
+        "courses": {
+            "CS-Computer Science & Engineering": "95657",
+            "EC-Electronics & Communication Engineering": "82891"
+        }
+    },
+    {
+        "code": "E144",
+        "name": "Veerappa Nisty Engineering College-Shorapur, Yadgir",
+        "courses": {}
+    },
+    {
+        "code": "E145",
+        "name": "Vemana Institute of Technology-Koramangala, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "69808",
+            "CD-Computer Science & Engineering (Data Science)": "80012",
+            "CS-Computer Science & Engineering": "63730",
+            "CV-Civil Engineering": "44296",
+            "EC-Electronics & Communication Engineering": "86079",
+            "IS-Information Science & Engineering": "98588"
+        }
+    },
+    {
+        "code": "E146",
+        "name": "Vidya Vikas Institute of Engineering and Technology-Alnahally, Mysuru",
+        "courses": {
+            "CS-Computer Science & Engineering": "43063",
+            "IS-Information Science & Engineering": "59594"
+        }
+    },
+    {
+        "code": "E147",
+        "name": "Vidyavardhaka College of Engineering-Gokulam, Mysuru",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "31962",
+            "CS-Computer Science & Engineering": "28710",
+            "CV-Civil Engineering": "55863",
+            "EC-Electronics & Communication Engineering": "39624",
+            "EE-Electrical & Electronics Engineering": "46824",
+            "IS-Information Science & Engineering": "34696",
+            "ME-Mechanical Engineering": "50764"
+        }
+    },
+    {
+        "code": "E148",
+        "name": "Vivekananda College of Engineering and Technology-Puttur, Dakshin Kannada",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "81561",
+            "CD-Computer Science & Engineering (Data Science)": "78972",
+            "CS-Computer Science & Engineering": "90262",
+            "ME-Mechanical Engineering": "59211"
+        }
+    },
+    {
+        "code": "E149",
+        "name": "Vivekananda Institute of Technology-Kengeri, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "69897",
+            "CS-Computer Science & Engineering": "56928",
+            "CV-Civil Engineering": "79248",
+            "EC-Electronics & Communication Engineering": "84548",
+            "IS-Information Science & Engineering": "80340",
+            "ME-Mechanical Engineering": "70302"
+        }
+    },
+    {
+        "code": "E152",
+        "name": "ATME College of Engineering-Bannur Road, Mysuru",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "100310",
+            "CG-Computer Science & Design": "79204",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "80538",
+            "CS-Computer Science & Engineering": "99110",
+            "CY-Computer Science & Engineering (Cyber Security)": "62009",
+            "EC-Electronics & Communication Engineering": "65963",
+            "EE-Electrical & Electronics Engineering": "72665",
+            "ME-Mechanical Engineering": "79109"
+        }
+    },
+    {
+        "code": "E156",
+        "name": "Jyothy Institute of Technology-Tathguni, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "62118",
+            "CS-Computer Science & Engineering": "58791",
+            "EC-Electronics & Communication Engineering": "100726",
+            "IS-Information Science & Engineering": "79798",
+            "ME-Mechanical Engineering": "61324"
+        }
+    },
+    {
+        "code": "E158",
+        "name": "Shetty Institute of Technology - Gulbarga Shahabad Road, Kalaburagi",
+        "courses": {
+            "CS-Computer Science & Engineering": "67041"
+        }
+    },
+    {
+        "code": "E159",
+        "name": "Lingaraj Appa Engineering-Gornalli, Bidar",
+        "courses": {}
+    },
+    {
+        "code": "E161",
+        "name": "Cambridge Institute of Technology North Campus-Kundana, Bengaluru",
+        "courses": {
+            "CS-Computer Science & Engineering": "32747",
+            "CY-Computer Science & Engineering (Cyber Security)": "44662",
+            "EC-Electronics & Communication Engineering": "57694",
+            "ME-Mechanical Engineering": "79729"
+        }
+    },
+    {
+        "code": "E164",
+        "name": "Reva University-Yelahanka, Bengaluru",
+        "courses": {
+            "AL-Agricultural Engineering": "55571",
+            "CV-Civil Engineering": "51689",
+            "EC-Electronics & Communication Engineering": "18730",
+            "EE-Electrical & Electronics Engineering": "26514",
+            "ME-Mechanical Engineering": "45079",
+            "MT-Mechatronics Engineering": "27543"
+        }
+    },
+    {
+        "code": "E165",
+        "name": "Alliance College of Engineering and Design. Alliance University-Anekal, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "17226",
+            "AS-Aerospace Engineering": "19917",
+            "CO-Computer Science & Engineering (IOT)": "19872",
+            "CS-Computer Science & Engineering": "11391",
+            "CV-Civil Engineering": "64503",
+            "CY-Computer Science & Engineering (Cyber Security)": "14263",
+            "EC-Electronics & Communication Engineering": "23950",
+            "EE-Electrical & Electronics Engineering": "34030",
+            "IAR - Information Technology (Augmented Reality and Virtual Reality (AR / VR)": "38207",
+            "IDA -Information Technology (Data Analytics)": "23087",
+            "INT-Information Technology": "29925",
+            "ME-Mechanical Engineering": "62463"
+        }
+    },
+    {
+        "code": "E171",
+        "name": "GITAM Deemed to be University-Dodaballapur taluk, Bengaluru",
+        "courses": {
+            "CB-Computer Science & Business Systems": "10966",
+            "CCA-Civil Engineering with Computer Application": "86721",
+            "CD-Computer Science & Engineering (Data Science)": "5147",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "4471",
+            "CS-Computer Science & Engineering": "3986",
+            "CY-Computer Science & Engineering (Cyber Security)": "7589",
+            "ECE-Electrical & Computer Engineering": "28308",
+            "EC-Electronics & Communication Engineering": "23003",
+            "ME-Mechanical Engineering": "100385",
+            "RI-Robotics & Artificial Intelligence": "20439",
+            "VL-Electronics Engineering (VLSI Design & Technology)": "35419"
+        }
+    },
+    {
+        "code": "E172",
+        "name": "Mysore College of Engineering and Management-Chikkahalli, Mysuru",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "55075",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "70030",
+            "CS-Computer Science & Engineering": "96084",
+            "EC-Electronics & Communication Engineering": "72251",
+            "IS-Information Science & Engineering": "98849",
+            "ME-Mechanical Engineering": "83998"
+        }
+    },
+    {
+        "code": "E173",
+        "name": "Presidency University-Yelahanka, Bengaluru",
+        "courses": {
+            "CBD-Computer Science & Technology (Big Data)": "19067",
+            "CNW-Computer Science & Engineering (Networks)": "26168",
+            "CO-Computer Science & Engineering (IOT)": "26383",
+            "CS-Computer Science & Engineering": "10196",
+            "CSD-Computer Science & Technology (Devops)": "21510",
+            "CV-Civil Engineering": "96361",
+            "EE-Electrical & Electronics Engineering": "51684",
+            "ME-Mechanical Engineering": "54884",
+            "PTE-Petroleum Engineering": "47153",
+            "VLS-VLSI": "69387"
+        }
+    },
+    {
+        "code": "E183",
+        "name": "Jain Institute of Technology-Avaragere Village, Davangere",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "55805",
+            "CS-Computer Science & Engineering": "100405",
+            "EC-Electronics & Communication Engineering": "85904",
+            "IS-Information Science & Engineering": "94642"
+        }
+    },
+    {
+        "code": "E186",
+        "name": "Nitte School of Architecture Planning and Design-Yelahanka, Bengaluru",
+        "courses": {
+            "BD-Bachelor of Design": "97893",
+            "BP-Bachelor of Urban & Regional Planning": "96464"
+        }
+    },
+    {
+        "code": "E187",
+        "name": "CMR University-Bagalur-Chagalatti, Bengaluru",
+        "courses": {
+            "CD-Computer Science & Engineering (Data Science)": "11078",
+            "CE-Computer Engineering": "16227",
+            "CST-Computer Science & Technology": "15062",
+            "EC-Electronics & Communication Engineering": "21118",
+            "INT-Information Technology": "16959"
+        }
+    },
+    {
+        "code": "E194",
+        "name": "Jain College of Engineering and Technology-Unkal, Hubballi",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "46382",
+            "CS-Computer Science & Engineering": "58827",
+            "CV-Civil Engineering": "92151",
+            "EC-Electronics & Communication Engineering": "73355",
+            "ME-Mechanical Engineering": "78581"
+        }
+    },
+    {
+        "code": "E195",
+        "name": "Navkis College of Engineering -Kandali NH75, Hassan",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "93206",
+            "AI-Artificial Intelligence & Machine Learning": "45881",
+            "CS-Computer Science & Engineering": "20357"
+        }
+    },
+    {
+        "code": "E197",
+        "name": "M.S. Ramaiah University of Applied Sciences-MSR Nagar, Bengaluru",
+        "courses": {
+            "AVE-Automotive Engineering": "18814",
+            "CV-Civil Engineering": "16014"
+        }
+    },
+    {
+        "code": "E198",
+        "name": "R V Institute of Technology and Management-J P Nagar, Bengaluru",
+        "courses": {
+            "CS-Computer Science & Engineering": "5104",
+            "EC-Electronics & Communication Engineering": "6491",
+            "IS-Information Science & Engineering": "6873"
+        }
+    },
+    {
+        "code": "E199",
+        "name": "Biluru Gurubasava Mahaswamiji Institute of Technology-Mudhol, Bagalkot",
+        "courses": {
+            "CS-Computer Science & Engineering": "88980"
+        }
+    },
+    {
+        "code": "E201",
+        "name": "G Madegowda Institute of Technology-Maddur, Mandya District",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "40800",
+            "CG-Computer Science & Design": "27263",
+            "CS-Computer Science & Engineering": "73490"
+        }
+    },
+    {
+        "code": "E202",
+        "name": "C Byregowda Insitute of Technology-Thoradevandahalli, Kolar",
+        "courses": {
+            "CE-Computer Engineering": "89613",
+            "CS-Computer Science & Engineering": "53966"
+        }
+    },
+    {
+        "code": "E203",
+        "name": "Amruta Institute of Engineering and Management Science-Bidadi, Ramnagar Taluk, Bengaluru\r\nRural",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "59925",
+            "CS-Computer Science & Engineering": "55588",
+            "CV-Civil Engineering": "88519",
+            "EC-Electronics & Communication Engineering": "91090",
+            "IS-Information Science & Engineering": "84860",
+            "ME-Mechanical Engineering": "89867"
+        }
+    },
+    {
+        "code": "E204",
+        "name": "H.K.E. Societys Sir M. Visvesvaraya College of Engineering-Yermarus Camp, Raichur",
+        "courses": {
+            "CS-Computer Science & Engineering": "70305",
+            "EC-Electronics & Communication Engineering": "97828"
+        }
+    },
+    {
+        "code": "E205",
+        "name": "Vijaya Vittala Institution of Technology-Kothanur, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "93010",
+            "CD-Computer Science & Engineering (Data Science)": "88847",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "74118",
+            "CS-Computer Science & Engineering": "97860"
+        }
+    },
+    {
+        "code": "E206",
+        "name": "Cauvery Institute Of Technology-Sundahalli, Mandya",
+        "courses": {
+            "CS-Computer Science & Engineering": "81191",
+            "CV-Civil Engineering": "57032",
+            "IS-Information Science & Engineering": "23389"
+        }
+    },
+    {
+        "code": "E207",
+        "name": "BGS College of Engineering and Technology-Mahalaxmipuram, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "48017",
+            "AI-Artificial Intelligence & Machine Learning": "40106",
+            "CG-Computer Science & Design": "57427",
+            "CS-Computer Science & Engineering": "28189",
+            "IS-Information Science & Engineering": "44267"
+        }
+    },
+    {
+        "code": "E208",
+        "name": "A.G.M Rural College of Engineering and Technology-Varur, Hubballi",
+        "courses": {
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "69863",
+            "CS-Computer Science & Engineering": "96184"
+        }
+    },
+    {
+        "code": "E209",
+        "name": "Aditya College of Engineering and Technology-Yelahanka, Bengaluru",
+        "courses": {
+            "AD-Artificial Intelligence & Data Science": "88496",
+            "AI-Artificial Intelligence & Machine Learning": "79189",
+            "CA-Computer Science & Engineering (Artificial Intelligence)": "58263",
+            "CI-Computer Science & Engineering (Artificial Intelligence & Machine Learning)": "79738",
+            "CS-Computer Science & Engineering": "99627",
+            "DS-Data Science": "101425",
+            "EC-Electronics & Communication Engineering": "84142"
+        }
+    },
+    {
+        "code": "E210",
+        "name": "Impact College Of Engineering and Applied Science-Sahakar Nagar, Bengaluru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "83337",
+            "AR-Automation & Robotics Engineering": "97106",
+            "CD-Computer Science & Engineering (Data Science)": "96263",
+            "CS-Computer Science & Engineering": "99660",
+            "CY-Computer Science & Engineering (Cyber Security)": "83997",
+            "EC-Electronics & Communication Engineering": "79791"
+        }
+    },
+    {
+        "code": "E211",
+        "name": "East West College of Engineering-Yelahanka, Bengaluru",
+        "courses": {
+            "AE-Aeronautical Engineering": "99345",
+            "CS-Computer Science & Engineering": "64106",
+            "EC-Electronics & Communication Engineering": "102062",
+            "ME-Mechanical Engineering": "74235"
+        }
+    },
+    {
+        "code": "E212",
+        "name": "Seshadripuram Institute of Technology - Jaipura Hobli, Mysuru",
+        "courses": {
+            "AI-Artificial Intelligence & Machine Learning": "55611",
+            "CS-Computer Science & Engineering": "67287",
+            "EE-Electrical & Electronics Engineering": "80925",
+            "IS-Information Science & Engineering": "99930"
+        }
+    }
+]
