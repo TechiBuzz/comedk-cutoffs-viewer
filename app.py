@@ -24,8 +24,13 @@ def retrieve_colleges(filepath: str, college_code: str, rank_range: str) -> list
     formatted_colleges_list = []
 
     cs_courses = ['AI', 'AD', 'CS', 'CY', 'CB', 'CD', 'CI', 'IC', 'IS']
-    rank_start = int(rank_range.partition('-')[0])
-    rank_end = int(rank_range.partition('-')[-1])
+
+    if rank_range == "ALL":
+        rank_start = 0
+        rank_end = float('inf')
+    else:
+        rank_start = int(rank_range.partition('-')[0])
+        rank_end = int(rank_range.partition('-')[-1])
 
     for college in colleges_list:
         formatted_college = {'code': "", 'name': "", 'courses': {}}
@@ -87,13 +92,13 @@ class CollegeWidget(ctk.CTkFrame):
         self.course_list.pack(expand=True, fill="both", padx=10, pady=(0, 10), ipady=10)
 
         # Enter and Update table values
-        if len(courses) != 0:
-            for key in courses:
-                self.course_table_entries.append((key, courses[key]))
-            self.course_list.rows = len(courses)
-        else:  # No data / some error
-            self.course_table_entries.append(('-', '-'))
-            self.course_list.rows = 2
+        # if len(courses) != 0:
+        for key in courses:
+            self.course_table_entries.append((key, courses[key]))
+        self.course_list.rows = len(courses)
+        # else:  # No data / some error
+        #     self.course_table_entries.append(('-', '-'))
+        #     self.course_list.rows = 2
 
         self.course_list.update_values(self.course_table_entries)
 
@@ -237,16 +242,18 @@ class ComedkApp(ctk.CTk):
         if clear_old:
             self.clear_entries()
 
-        round_number_to_file = {
+        round_file = {
             "2024 MOCK": "assets/data/json/comedk-24-mock.json",
             "2024 Round 1": "assets/data/json/comedk-24-r1.json",
             "2024 Round 2": "assets/data/json/comedk-24-r2.json",
             "2024 Round 3": "assets/data/json/comedk-24-r3.json",
             "2025 MOCK": "assets/data/json/comedk-25-mock.json"
         }
-        round_file = round_number_to_file[self.counselling_round_var.get()]
+        round_file = round_file[self.counselling_round_var.get()]
 
         for college in retrieve_colleges(round_file, self.college_var.get()[:4], self.rank_range_var.get()):
+            if len(college['courses']) == 0:
+                return
             college_widget = CollegeWidget(
                 master=self.options_list,
                 college_name=college['name'],
