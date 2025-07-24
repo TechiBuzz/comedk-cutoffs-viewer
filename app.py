@@ -1,5 +1,3 @@
-import os
-
 from assets.util.colleges_and_codes import college_n_codes
 from CTkTable import CTkTable
 
@@ -8,6 +6,7 @@ import json
 
 
 def retrieve_colleges(filepath: str, college_code: str, rank_range: str) -> list[dict]:
+    # Extract raw data]
     colleges_list = []
 
     with open(filepath, 'r') as file:
@@ -21,11 +20,33 @@ def retrieve_colleges(filepath: str, college_code: str, rank_range: str) -> list
                     colleges_list.append(college)
                     break
 
-    return colleges_list
+    # Return a formatted version with only required settings
+    formatted_colleges_list = []
+
+    cs_courses = ['AI', 'AD', 'CS', 'CY', 'CB', 'CD', 'CI', 'IC', 'IS']
+    rank_start = int(rank_range.partition('-')[0])
+    rank_end = int(rank_range.partition('-')[-1])
+
+    for college in colleges_list:
+        formatted_college = {'code': "", 'name': "", 'courses': {}}
+
+        for key in college.keys():
+            if key == 'courses':
+                for course, cutoff in college['courses'].items():
+                    if course[:2] in cs_courses and (rank_start <= int(cutoff) <= rank_end):
+                        formatted_college['courses'].update({course: cutoff})
+            else:
+                formatted_college.update({key: college[key]})
+
+        formatted_colleges_list.append(formatted_college)
+
+    return formatted_colleges_list
 
 
 class CollegeWidget(ctk.CTkFrame):
     def __init__(self, master, college_name: str, counselling_round: str, courses: dict):
+        if len(courses) == 0: return
+
         super().__init__(master, corner_radius=16)
 
         # Header Frame
@@ -205,7 +226,10 @@ class ComedkApp(ctk.CTk):
 
     def clear_entries(self):
         for thing in self.college_widget_instances:
-            thing.pack_forget()
+            try:
+                thing.pack_forget()
+            except AttributeError:
+                pass
         self.options_list._parent_canvas.yview_moveto(0.0)
 
     def generate_list(self, clear_old: bool):
@@ -231,7 +255,7 @@ class ComedkApp(ctk.CTk):
             )
             self.college_widget_instances.append(college_widget)
 
-        self.options_list._parent_canvas.yview_moveto(2.0)
+        self.options_list._parent_canvas.yview_moveto(1.0)
 
 
 def main():
