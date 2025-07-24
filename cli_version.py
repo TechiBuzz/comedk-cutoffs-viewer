@@ -1,7 +1,8 @@
 import csv
-from util.colleges_and_codes import college_n_codes
+from assets.util.colleges_and_codes import college_n_codes
 
-rounds = ['util/cmdk-24-r1.csv', 'util/cmdk-24-r2.csv', 'util/cmdk-24-r3.csv', 'util/cmdk-24-mock.csv', 'util/cmdk-25-mock.csv']
+rounds = ['assets/data/csv/cmdk-24-r1.csv', 'assets/data/csv/cmdk-24-r2.csv', 'assets/data/csv/cmdk-24-r3.csv',
+          'assets/data/csv/cmdk-24-mock.csv', 'assets/data/csv/cmdk-25-mock.csv']
 
 
 def retrieve_college_data(counselling_round):
@@ -100,4 +101,6 @@ def main():
         print()
         if redo.upper() != 'Y': break
 
-print(retrieve_college_data(0))
+
+if __name__ == "__main__":
+    main()

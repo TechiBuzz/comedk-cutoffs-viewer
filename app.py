@@ -1,40 +1,25 @@
 import os
 
-from util.colleges_and_codes import college_n_codes
+from assets.util.colleges_and_codes import college_n_codes
 from CTkTable import CTkTable
 
 import customtkinter as ctk
 import json
 
-ROUND_NUMBER_TO_FILE = {
-    "2024 MOCK": "data/comedk-24-mock.json",
-    "2024 Round 1": "data/comedk-24-r1.json",
-    "2024 Round 2": "data/comedk-24-r2.json",
-    "2024 Round 3": "data/comedk-24-r3.json",
-    "2025 MOCK": "data/comedk-25-mock.json"
-}
 
-
-def retrieve_college(filepath: str, college_code: str) -> dict:
-    college = dict()
-
-    with open(filepath, 'r') as file:
-        data = json.load(file)
-        for thing in data:
-            if thing['code'] == college_code:
-                college = thing
-                break
-
-    return college
-
-
-def retrieve_all_colleges(filepath: str) -> list:
+def retrieve_colleges(filepath: str, college_code: str, rank_range: str) -> list[dict]:
     colleges_list = []
 
     with open(filepath, 'r') as file:
         data = json.load(file)
-        for college in data:
-            colleges_list.append(college)
+        if college_code == "ALL":
+            for college in data:
+                colleges_list.append(college)
+        else:
+            for college in data:
+                if college['code'] == college_code:
+                    colleges_list.append(college)
+                    break
 
     return colleges_list
 
@@ -44,8 +29,11 @@ class CollegeWidget(ctk.CTkFrame):
         super().__init__(master, corner_radius=16)
 
         # Header Frame
-        self.header_frame = ctk.CTkFrame(master=self, corner_radius=16,
-            fg_color="#" + str(os.urandom(3).hex()))
+        self.header_frame = ctk.CTkFrame(
+            master=self, corner_radius=16,
+            fg_color="#3dccc7"
+            # fg_color="#" + str(os.urandom(3).hex())
+        )
         self.header_frame.pack(expand=True, fill="both", padx=10, pady=10, ipady=20)
 
         # College Label
@@ -53,7 +41,7 @@ class CollegeWidget(ctk.CTkFrame):
             master=self.header_frame,
             text=college_name,
             font=("Arial Rounded MT Bold", 20, "bold"),
-            text_color='black'
+            text_color='#c4fff9'
         )
         self.college_name_label.pack(side="left", padx=(20, 0))
 
@@ -61,7 +49,8 @@ class CollegeWidget(ctk.CTkFrame):
         self.round_info = ctk.CTkLabel(
             master=self.header_frame,
             text=counselling_round,
-            font=("Arial Rounded MT Bold", 15, "normal")
+            font=("Arial Rounded MT Bold", 15, "normal"),
+            text_color='#c4fff9'
         )
         self.round_info.pack(side="right", padx=(0, 20))
 
@@ -70,7 +59,9 @@ class CollegeWidget(ctk.CTkFrame):
         self.course_list = CTkTable(
             master=self,
             column=2,
-            row=1
+            row=1,
+            pady=8,
+            font=('Calibri', 22, 'bold')
         )
         self.course_list.pack(expand=True, fill="both", padx=10, pady=(0, 10), ipady=10)
 
@@ -94,7 +85,9 @@ class ComedkApp(ctk.CTk):
         super().__init__()
 
         # VARIABLES
-        self.college_var = ctk.StringVar(value='ALL')
+        self.college_widget_instances = []
+
+        self.college_var = ctk.StringVar(value='E027: BMS College of Engineering-Basavanagudi, Bengaluru')
         self.counselling_round_var = ctk.StringVar(value='2024 Round 1')
         self.rank_range_var = ctk.StringVar(value='0-6000')
 
@@ -105,10 +98,11 @@ class ComedkApp(ctk.CTk):
         # Top half of the frame
         self.parameter_section = ctk.CTkFrame(master=self.main_frame, corner_radius=16)
 
-        self.parameter_section.rowconfigure((0, 1, 2), weight=1)
+        self.parameter_section.rowconfigure((0, 1), weight=1)
+        self.parameter_section.rowconfigure(2, weight=2)
         self.parameter_section.columnconfigure((0, 1, 2, 3), weight=1, uniform="yessir")
 
-        self.parameter_section.pack(expand=True, fill="both", padx=20, pady=(20, 10))
+        self.parameter_section.pack(fill="x", padx=20, pady=(20, 10))
 
         # College Name Label
         self.college_name = ctk.CTkLabel(
@@ -116,7 +110,7 @@ class ComedkApp(ctk.CTk):
             text="[🏫] College(s):",
             font=('Helvetica', 24, 'bold')
         )
-        self.college_name.grid(row=0, column=0, sticky='w', padx=(20, 0))
+        self.college_name.grid(row=0, column=0, sticky='w', padx=(20, 0), pady=30)
 
         # College List Dropdown
         self.dropdown_college_items = ['ALL'] + [x + ": " + y for x, y in college_n_codes.items()]
@@ -127,7 +121,7 @@ class ComedkApp(ctk.CTk):
             height=35,
             corner_radius=16
         )
-        self.dropdown_college.grid(row=0, column=1, sticky='ew')
+        self.dropdown_college.grid(row=0, column=1, sticky='ew', pady=30)
 
         # Counselling Round Label
         self.counselling_round = ctk.CTkLabel(
@@ -135,7 +129,7 @@ class ComedkApp(ctk.CTk):
             text="[🎯] Round: ",
             font=('Helvetica', 24, 'bold')
         )
-        self.counselling_round.grid(row=0, column=2, sticky='ew')
+        self.counselling_round.grid(row=0, column=2, sticky='ew', pady=30)
 
         # College List Dropdown
         self.dropdown_round = ctk.CTkOptionMenu(
@@ -145,7 +139,7 @@ class ComedkApp(ctk.CTk):
             height=35,
             corner_radius=16
         )
-        self.dropdown_round.grid(row=0, column=3, sticky='ew', padx=20)
+        self.dropdown_round.grid(row=0, column=3, sticky='ew', padx=20, pady=30)
 
         # Rank Range Label
         self.rank_range = ctk.CTkLabel(
@@ -153,7 +147,7 @@ class ComedkApp(ctk.CTk):
             text="[🔢] Rank Range: ",
             font=('Helvetica', 24, 'bold')
         )
-        self.rank_range.grid(row=1, column=0, sticky='w', padx=(20, 0))
+        self.rank_range.grid(row=1, column=0, sticky='w', padx=(20, 0), pady=(0, 30))
 
         # Rank Range Dropdown
         self.dropdown_rank_range = ctk.CTkOptionMenu(
@@ -164,49 +158,89 @@ class ComedkApp(ctk.CTk):
             height=35,
             corner_radius=16
         )
-        self.dropdown_rank_range.grid(row=1, column=1, sticky='ew', padx=(0, 20), columnspan=3)
+        self.dropdown_rank_range.grid(row=1, column=1, sticky='ew', padx=(0, 20), pady=(0, 30), columnspan=3)
 
         # Search Button
         self.search = ctk.CTkButton(
             master=self.parameter_section,
             text="🔍 Search",
             font=("Helvetica", 20, "bold"),
+            height=50,
             corner_radius=100,
-            fg_color="#588157",
-            hover_color="#a3b18a",
-            command=self.generate_list
+            fg_color="#ff9f1c",
+            hover_color="#ffbf69",
+            command=lambda: self.generate_list(True)
         )
-        self.search.grid(row=2, column=0, columnspan=4, sticky='nsew', padx=20, pady=(0, 10))
+        self.search.grid(row=2, column=0, columnspan=2, sticky='nsew', padx=20, pady=(0, 30))
+
+        # Add Button
+        self.add = ctk.CTkButton(
+            master=self.parameter_section,
+            text="➕ Add",
+            font=("Helvetica", 20, "bold"),
+            height=50,
+            corner_radius=100,
+            fg_color="#4f772d",
+            hover_color="#90a955",
+            command=lambda: self.generate_list(False)
+        )
+        self.add.grid(row=2, column=2, sticky='nsew', padx=20, pady=(0, 30))
+
+        # Clear Button
+        self.clear = ctk.CTkButton(
+            master=self.parameter_section,
+            text="♻️ Clear",
+            font=("Helvetica", 20, "bold"),
+            height=50,
+            corner_radius=100,
+            fg_color="#a53860",
+            hover_color="#da627d",
+            command=self.clear_entries
+        )
+        self.clear.grid(row=2, column=3, sticky='nsew', padx=20, pady=(0, 30))
 
         # Options List
         self.options_list = ctk.CTkScrollableFrame(master=self.main_frame, corner_radius=16)
         self.options_list.pack(expand=True, fill="both", padx=20, pady=(10, 20))
 
-    def generate_list(self):
-        round_file = ROUND_NUMBER_TO_FILE[self.counselling_round_var.get()]
+    def clear_entries(self):
+        for thing in self.college_widget_instances:
+            thing.pack_forget()
+        self.options_list._parent_canvas.yview_moveto(0.0)
 
-        if not self.college_var.get() == "ALL":
-            college = retrieve_college(round_file, self.college_var.get()[:4])
+    def generate_list(self, clear_old: bool):
+        # Clear old entries
+        if clear_old:
+            self.clear_entries()
 
-            CollegeWidget(
+        round_number_to_file = {
+            "2024 MOCK": "assets/data/json/comedk-24-mock.json",
+            "2024 Round 1": "assets/data/json/comedk-24-r1.json",
+            "2024 Round 2": "assets/data/json/comedk-24-r2.json",
+            "2024 Round 3": "assets/data/json/comedk-24-r3.json",
+            "2025 MOCK": "assets/data/json/comedk-25-mock.json"
+        }
+        round_file = round_number_to_file[self.counselling_round_var.get()]
+
+        for college in retrieve_colleges(round_file, self.college_var.get()[:4], self.rank_range_var.get()):
+            college_widget = CollegeWidget(
                 master=self.options_list,
                 college_name=college['name'],
                 counselling_round=self.counselling_round_var.get(),
                 courses=college['courses']
             )
-        else:
-            for college in retrieve_all_colleges(round_file):
-                CollegeWidget(
-                    master=self.options_list,
-                    college_name=college['name'],
-                    counselling_round=self.counselling_round_var.get(),
-                    courses=college['courses']
-                )
+            self.college_widget_instances.append(college_widget)
+
+        self.options_list._parent_canvas.yview_moveto(2.0)
 
 
 def main():
     # CTk Settings
     ctk.set_appearance_mode('dark')
+    try:
+        ctk.set_default_color_theme('assets/themes/breeze.json')
+    except FileNotFoundError:
+        print("[!] Theme JSON file not found! Falling back to classic dark")
 
     # Init
     app = ComedkApp()

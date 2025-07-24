@@ -1,4 +1,4 @@
-from util.colleges_and_codes import college_n_codes
+from assets.util.colleges_and_codes import college_n_codes
 import json
 import csv
 
