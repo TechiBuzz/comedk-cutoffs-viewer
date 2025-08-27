@@ -206,8 +206,8 @@
             "CV-Civil Engineering": "36707",
             "EC-Electronics & Communication Engineering": "8040",
             "EE-Electrical & Electronics Engineering": "12683",
-            "EI-Electronics & Instrument-ation Engineering": "16031",
-            "ET-Electronics & Telecommu- nication Engineering": "11709",
+            "EI-Electronics & Instrumentation Engineering": "16031",
+            "ET-Electronics & Telecommunication Engineering": "11709",
             "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "5350",
             "IS-Information Science & Engineering": "5901",
             "ME-Mechanical Engineering": "25719",
@@ -349,7 +349,7 @@
     },
     {
         "code": "E035",
-        "name": "Channabasaveshwara Institute of Technology- Gubbi, Tumakuru",
+        "name": "Channabasaveshwara Institute of Technology-Gubbi, Tumakuru",
         "courses": {
             "AD-Artificial Intelligence & Data Science": "99218",
             "CS-Computer Science & Engineering": "101925",
@@ -421,8 +421,8 @@
             "CY-Computer Science & Engineering (Cyber Security)": "2870",
             "EC-Electronics & Communication Engineering": "5005",
             "EE-Electrical & Electronics Engineering": "8458",
-            "EI-Electronics & Instrument-ation Engineering": "9660",
-            "ET-Electronics & Telecommu- nication Engineering": "8811",
+            "EI-Electronics & Instrumentation Engineering": "9660",
+            "ET-Electronics & Telecommunication Engineering": "8811",
             "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "3147",
             "IS-Information Science & Engineering": "3344",
             "MD-Medical Electronics Engineering": "22521",
@@ -580,7 +580,7 @@
             "CS-Computer Science & Engineering": "87378",
             "EC-Electronics & Communication Engineering": "90134",
             "EE-Electrical & Electronics Engineering": "79136",
-            "EI-Electronics & Instrument-ation Engineering": "40122"
+            "EI-Electronics & Instrumentation Engineering": "40122"
         }
     },
     {
@@ -600,7 +600,7 @@
             "CV-Civil Engineering": "95405",
             "EC-Electronics & Communication Engineering": "69969",
             "EE-Electrical & Electronics Engineering": "102078",
-            "ET-Electronics & Telecommu- nication Engineering": "92231",
+            "ET-Electronics & Telecommunication Engineering": "92231",
             "IS-Information Science & Engineering": "59957",
             "RI-Robotics & Artificial Intelligence": "84613"
         }
@@ -613,7 +613,7 @@
             "CS-Computer Science & Engineering": "11017",
             "CV-Civil Engineering": "40173",
             "EC-Electronics & Communication Engineering": "19863",
-            "EI-Electronics & Instrument-ation Engineering": "25661",
+            "EI-Electronics & Instrumentation Engineering": "25661",
             "IS-Information Science & Engineering": "15298",
             "ME-Mechanical Engineering": "34840"
         }
@@ -799,8 +799,8 @@
             "CY-Computer Science & Engineering (Cyber Security)": "1611",
             "EC-Electronics & Communication Engineering": "2263",
             "EE-Electrical & Electronics Engineering": "2993",
-            "EI-Electronics & Instrument-ation Engineering": "3301",
-            "ET-Electronics & Telecommu- nication Engineering": "3060",
+            "EI-Electronics & Instrumentation Engineering": "3301",
+            "ET-Electronics & Telecommunication Engineering": "3060",
             "IM-Industrial Engineering & Management": "14407",
             "IS-Information Science & Engineering": "1720",
             "MD-Medical Electronics Engineering": "19386",
@@ -979,7 +979,7 @@
             "CY-Computer Science & Engineering (Cyber Security)": "424",
             "EC-Electronics & Communication Engineering": "700",
             "EE-Electrical & Electronics Engineering": "1501",
-            "ET-Electronics & Telecommu- nication Engineering": "1311",
+            "ET-Electronics & Telecommunication Engineering": "1311",
             "IM-Industrial Engineering & Management": "7754",
             "IS-Information Science & Engineering": "418",
             "ME-Mechanical Engineering": "4127"
@@ -1267,8 +1267,8 @@
             "CS-Computer Science & Engineering": "6478",
             "EC-Electronics & Communication Engineering": "10705",
             "EE-Electrical & Electronics Engineering": "13642",
-            "EIE-Electronics & Instrument-ation Engineering (Inst. Technology)": "14382",
-            "ET-Electronics & Telecommu- nication Engineering": "11576",
+            "EIE-Electronics & Instrumentation Engineering (Inst. Technology)": "14382",
+            "ET-Electronics & Telecommunication Engineering": "11576",
             "IS-Information Science & Engineering": "8022"
         }
     },
@@ -1283,7 +1283,7 @@
             "CV-Civil Engineering": "42903",
             "EC-Electronics & Communication Engineering": "12567",
             "EE-Electrical & Electronics Engineering": "21187",
-            "ET-Electronics & Telecommu- nication Engineering": "16935",
+            "ET-Electronics & Telecommunication Engineering": "16935",
             "IC-Computer Science & Engineering (IOT & Cyber Security Including Block Chain Technology)": "8994",
             "IS-Information Science & Engineering": "9407",
             "ME-Mechanical Engineering": "26558",
@@ -1472,7 +1472,7 @@
     },
     {
         "code": "E158",
-        "name": "Shetty Institute of Technology - Gulbarga Shahabad Road, Kalaburagi",
+        "name": "Shetty Institute of Technology-Gulbarga Shahabad Road, Kalaburagi",
         "courses": {
             "CS-Computer Science & Engineering": "67041"
         }
@@ -1516,8 +1516,8 @@
             "CY-Computer Science & Engineering (Cyber Security)": "14830",
             "EC-Electronics & Communication Engineering": "20818",
             "EE-Electrical & Electronics Engineering": "35657",
-            "IAR -  Information Technology (Augmented Reality & Virtual Reality (AR / VR)": "34351",
-            "IDA -Information Technology (Data Analytics)": "23087",
+            "IAR- Information Technology (Augmented Reality & Virtual Reality (AR / VR)": "34351",
+            "IDA-Information Technology (Data Analytics)": "23087",
             "INT-Information Technology": "22902",
             "ME-Mechanical Engineering": "60972"
         }
@@ -1610,7 +1610,7 @@
     },
     {
         "code": "E195",
-        "name": "Navkis College of Engineering -Kandali NH75, Hassan",
+        "name": "Navkis College of Engineering-Kandali NH75, Hassan",
         "courses": {
             "AD-Artificial Intelligence & Data Science": "61329",
             "AI-Artificial Intelligence & Machine Learning": "48052",
@@ -1754,7 +1754,7 @@
     },
     {
         "code": "E212",
-        "name": "Seshadripuram Institute of Technology - Jaipura Hobli, Mysuru",
+        "name": "Seshadripuram Institute of Technology-Jaipura Hobli, Mysuru",
         "courses": {
             "AI-Artificial Intelligence & Machine Learning": "91244",
             "CS-Computer Science & Engineering": "54910",

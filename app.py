@@ -7,13 +7,13 @@ import customtkinter as ctk
 import json
 
 
-def retrieve_colleges(filepath: str, college_code: str, rank_range: str, branches: str) -> list[dict]:
-    # Extract raw data]
+def retrieve_college_data(rounds_file: str, college_code: str, rank_range: str, branches: str) -> list[dict]:
+    # Extract raw data
     colleges_list = []
 
-    with open(filepath, 'r') as file:
+    with open(rounds_file, 'r') as file:
         data = json.load(file)
-        if college_code == "ALL":
+        if college_code == "All":
             for college in data:
                 colleges_list.append(college)
         else:
@@ -26,7 +26,7 @@ def retrieve_colleges(filepath: str, college_code: str, rank_range: str, branche
     formatted_colleges_list = []
 
     cs = {
-        "AD", "AI", "CA", "CB", "CD", "CG", "CI", "CN", "CO",
+        "AD", "AI", "CA", "CD", "CG", "CI", "CN", "CO",
         "CM", "CS", "CY", "IA", "IC", "IN", "IS"
     }
 
@@ -45,8 +45,8 @@ def retrieve_colleges(filepath: str, college_code: str, rank_range: str, branche
         "all": cs | elec | other
     }
 
-    rank_start = 0 if (rank_range == "ALL") else int(rank_range.partition('-')[0])
-    rank_end = 20000 if (rank_range == "ALL") else int(rank_range.partition('-')[-1])
+    rank_start = 0 if (rank_range == "All") else int(rank_range.partition('-')[0])
+    rank_end = 200000 if (rank_range == "All") else int(rank_range.partition('-')[-1])
 
     for college in colleges_list:
         formatted_college = {'code': "", 'name': "", 'courses': {}}
@@ -54,7 +54,7 @@ def retrieve_colleges(filepath: str, college_code: str, rank_range: str, branche
         for key in college.keys():
             if key == 'courses':
                 for course, cutoff in college['courses'].items():
-                    if rank_start <= int(cutoff) <= rank_end and course[:2] in branch_codes[branches]:
+                    if (rank_start <= int(cutoff) <= rank_end) and (course[:2] in branch_codes[branches]):
                         formatted_college['courses'].update({course: cutoff})
             else:
                 formatted_college.update({key: college[key]})
@@ -76,6 +76,17 @@ class CollegeWidget(ctk.CTkFrame):
         )
         self.header_frame.pack(expand=True, fill="both", padx=10, pady=10, ipady=20)
 
+        # Delete Entry Button
+        self.delete_button = ctk.CTkButton(
+            master=self.header_frame,
+            text='❌',
+            corner_radius=16,
+            width=30, height=30,
+            fg_color='#b81142',
+            command=lambda: self.destroy()
+        )
+        self.delete_button.pack(side="left", padx=(20, 0))
+
         # College Label
         self.college_name_label = ctk.CTkLabel(
             master=self.header_frame,
@@ -92,6 +103,7 @@ class CollegeWidget(ctk.CTkFrame):
             font=("Space Grotesk", 17, "bold"),
             text_color='#FFFFFF',
             fg_color='#b81142',
+            height=30,
             corner_radius=16
         )
         self.round_info.pack(side="right", padx=(0, 20))
@@ -125,7 +137,7 @@ class ComedkApp(ctk.CTk):
         self.college_widget_instances = []
 
         self.college_var = ctk.StringVar(value='E027: BMS College of Engineering-Basavanagudi, Bengaluru')
-        self.counselling_round_var = ctk.StringVar(value='2024 Round 1')
+        self.counselling_round_var = ctk.StringVar(value='2025 Round 1')
         self.rank_range_var = ctk.StringVar(value='0-6000')
 
         # Main Frame
@@ -156,7 +168,7 @@ class ComedkApp(ctk.CTk):
         self.college_name.grid(row=0, column=0, sticky='w', padx=(20, 0))
 
         # College List Dropdown
-        self.dropdown_college_items = ['ALL'] + [x + ": " + y for x, y in college_n_codes.items()]
+        self.dropdown_college_items = ['All'] + [x + ": " + y for x, y in college_n_codes.items()]
         self.dropdown_college = ctk.CTkOptionMenu(
             master=self.parameter_section,
             values=self.dropdown_college_items,
@@ -183,7 +195,7 @@ class ComedkApp(ctk.CTk):
         # College Round Dropdown
         self.dropdown_round = ctk.CTkOptionMenu(
             master=self.parameter_section,
-            values=["2024 MOCK", "2024 Round 1", "2024 Round 2", "2024 Round 3", "2025 MOCK"],
+            values=["2024 Mock", "2024 Round 1", "2024 Round 2", "2024 Round 3", "2025 Mock", "2025 Round 1", "2025 Round 2"],
             variable=self.counselling_round_var,
             height=35,
             corner_radius=16
@@ -207,7 +219,7 @@ class ComedkApp(ctk.CTk):
         # Rank Range Dropdown
         self.dropdown_rank_range = ctk.CTkOptionMenu(
             master=self.parameter_section,
-            values=["ALL", "0-6000", "6000-12000", "12000-18000", "18000-24000", "24000-30000", "30000-36000",
+            values=["All", "0-6000", "6000-12000", "12000-18000", "18000-24000", "24000-30000", "30000-36000",
                     "36000-42000", "42000-48000", "48000-54000", "54000-100000"],
             variable=self.rank_range_var,
             height=35,
@@ -308,10 +320,11 @@ class ComedkApp(ctk.CTk):
     def clear_entries(self):
         for thing in self.college_widget_instances:
             try:
-                thing.pack_forget()
+                thing.destroy()
             except AttributeError:
                 pass
-        self.options_list._parent_canvas.yview_moveto(0.0)
+        self.college_widget_instances = []  # Reset list
+        self.options_list._parent_canvas.yview_moveto(0.0)  # Reset scroll
 
     def generate_list(self, clear_old: bool):
         # Clear old entries
@@ -319,15 +332,18 @@ class ComedkApp(ctk.CTk):
             self.clear_entries()
 
         round_file = {
-            "2024 MOCK": "assets/data/json/comedk-24-mock.json",
+            "2024 Mock": "assets/data/json/comedk-24-mock.json",
             "2024 Round 1": "assets/data/json/comedk-24-r1.json",
             "2024 Round 2": "assets/data/json/comedk-24-r2.json",
             "2024 Round 3": "assets/data/json/comedk-24-r3.json",
-            "2025 MOCK": "assets/data/json/comedk-25-mock.json"
+            "2025 Mock": "assets/data/json/comedk-25-mock.json",
+            "2025 Round 1": "assets/data/json/comedk-25-r1.json",
+            "2025 Round 2": "assets/data/json/comedk-25-r2.json"
         }
         round_file = round_file[self.counselling_round_var.get()]
 
-        for college in retrieve_colleges(round_file, self.college_var.get()[:4], self.rank_range_var.get(), self.course_select_var.get()):
+        for college in retrieve_college_data(round_file, self.college_var.get()[:4], self.rank_range_var.get(),
+                                             self.course_select_var.get()):
             if len(college['courses']) != 0:
                 college_widget = CollegeWidget(
                     master=self.options_list,
@@ -336,8 +352,6 @@ class ComedkApp(ctk.CTk):
                     courses=college['courses']
                 )
                 self.college_widget_instances.append(college_widget)
-
-        self.options_list._parent_canvas.yview_moveto(0.0)
 
 
 def main():

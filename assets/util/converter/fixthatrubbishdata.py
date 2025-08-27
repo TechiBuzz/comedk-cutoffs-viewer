@@ -4,7 +4,7 @@ import csv
 
 colleges = []
 
-with open("CSV-FILE-PATH", newline='') as file:
+with open("comedk-25-r2.csv", newline='') as file:
     reader = list(csv.reader(file))
     for code in college_n_codes:
         course_name = []
@@ -19,18 +19,18 @@ with open("CSV-FILE-PATH", newline='') as file:
         college = (code, college_n_codes[code], course_name, cutoff_rank)
         colleges.append(college)
 
-with open("NEW-FILE-PATH", 'w') as file:
+with open("../../data/json/comedk-25-r2.json", 'w') as file:
     final_obj = []
     for college in colleges:
 
         valid_courses = []
         valid_ranks = []
 
-        for i in range(len(college[2])):
-            if len(college[2]) == len(college[3]):
-                if college[2][i] and college[3][i]: # both course name and rank is there
-                    valid_courses.append(college[2][i])
-                    valid_ranks.append(college[3][i])
+        for i in range(min(len(college[2]), len(college[3]))):
+            # if len(college[2]) == len(college[3]):
+            if college[2][i] and college[3][i]:  # both course name and rank is there
+                valid_courses.append(college[2][i])
+                valid_ranks.append(college[3][i])
 
         obj = {
             "code": college[0],
